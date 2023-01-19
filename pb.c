@@ -2072,7 +2072,7 @@ LUALIB_API int luaopen_pb(lua_State *L) {
         { NULL, NULL }
     };
     luaL_Reg meta[] = {
-        { "__gc", Lpb_delete },
+        // { "__gc", Lpb_delete },
         { "setdefault", Lpb_state },
         { NULL, NULL }
     };
